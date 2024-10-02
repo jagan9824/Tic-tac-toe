@@ -1,0 +1,106 @@
+h1 {
+    font-style: italic;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: rgb(123, 222, 229);
+    text-align: center;  
+}
+
+.container {
+    height: 70vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.game {
+    height: 60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+    
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem rgba(0 0 0 0.3);
+    font-size: 15vmin;
+    color: #096003;
+    background-color: #ffffcf;
+}
+.box1{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem rgba(0 0 0 0.3);
+    font-size: 15vmin;
+    color: #be1010;
+    background-color: #ffffcf;
+}
+
+#reset-btn {
+    padding:1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #ffff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#newgame-btn {
+    padding:1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #ffff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg {
+  color: #191913;
+  font-size: 5vmin;
+  font: italic;
+}
+
+.msg-container {
+    height: 25vmin;
+}
+
+.hide {
+   display: none; 
+}
+.choice,.Choose-choice{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight:500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(3, 0, 91);
+}
+.choice_button{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+.cross{
+    background-color: #c4130d;
+    color: aliceblue;
+}
+.circle{
+    background-color: rgb(14, 98, 11);
+    color: aliceblue;
+}
